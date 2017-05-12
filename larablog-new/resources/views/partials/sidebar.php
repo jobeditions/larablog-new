@@ -7,7 +7,7 @@
                     <a href="/"><img src="images/logo.png" class="img-responsive" alt="" /></a>
                 </div>
                 <h4 class="menn">Menu</h4>
-                
+                <label></label>
                 <div class="head-nav">
                     <span class="menu"> </span>
                         <ul>
@@ -30,9 +30,10 @@
                 <!-- script-for-nav -->     
                 </div>
                 <div class="clearfix"> </div>
+                
                 <div class="project">
                     <h4>Category</h4>
-                    
+                    <label></label>
                     <ul>
                         <li><a href="#">Category 1</a></li>
                         <li><a href="#">Category 2</a></li>
@@ -42,7 +43,7 @@
                 </div>
                 <div class="project">
                     <h4>Archives</h4>
-                    
+                    <label></label>
                     <ul>
                         <li><a href="#"> January 2017</a></li>
                         <li><a href="#"> February 2017</a></li>
@@ -53,7 +54,7 @@
                 </div>
                 <div class="project">
                     <h4>Social</h4>
-                    
+                    <label></label>
                     <ul>
                         <li><a href="#">Twitter</a></li>
                         <li><a href="#">Facebook</a></li>
@@ -63,7 +64,7 @@
                 </div>
                 <div class="project">
                     <h4>Twitter Feed</h4>
-                    
+                    <label></label>
                     <p>hey <a href="#">@webfan </a> just been using James George’s website template. i can’t believe he gives them away!</p>
                     <h6>1 day ago</h6>
                     <p>Just purchased <a href="#">@creativebeacon's</a> great book: Beautiful Web Design</p>
