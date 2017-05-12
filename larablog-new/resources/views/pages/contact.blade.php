@@ -1,4 +1,7 @@
 @extends ('layouts.master')
+@section('title')
+Blog écrivain-contacter nous
+@endsection
 @section ('content')
 
 			<div class="col-md-9 top-right">

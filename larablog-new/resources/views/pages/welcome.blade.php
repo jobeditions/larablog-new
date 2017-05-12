@@ -1,14 +1,17 @@
 @extends ('layouts.master')
+@section('title')
+Blog écrivain-accueil
+@endsection
 @section ('content')
 
-            <div class="col-md-9 top-right">
+            <div class="col-sm-9 top-right">
             <!-- banner -->
                 <div class="banner">
-                    <div class="col-md-8 banner-left">
+                    <div class="col-sm-8 banner-left">
                         <h2> <a href="singlepage.html">Hand made design</a></h2>
                         <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin.</p>
                     </div>
-                    <div class="col-md-4 banner-right">
+                    <div class="col-sm-4 banner-right">
                         <img src="images/img1.jpg" class="img-responsive" alt="" />
                         <img src="images/img2.jpg" class="img-responsive" alt="" />
                         <img src="images/img3.jpg" class="img-responsive" alt="" />
@@ -20,7 +23,7 @@
                 <div class="welcome">
                     <h2><span>Welcome</span> to our site!Download freebies, read articles & More!</h2>
                     <div class="welcome-top">
-                        <div class="col-md-6 welcome-left">
+                        <div class="col-sm-6 welcome-left">
                             <div class="view view-tenth">
                               <a href="singlepage.html">
                                <div class="inner_content clearfix">
@@ -36,7 +39,7 @@
                                 </a> 
                            </div>
                         </div>
-                        <div class="col-md-6 welcome-right">
+                        <div class="col-sm-6 welcome-right">
                             <div class="view view-tenth">
                               <a href="singlepage.html">
                                <div class="inner_content clearfix">
@@ -56,14 +59,14 @@
                     </div>
                 <!-- welcome-bottom -->
                     <div class="welcome-bottom">
-                        <div class="col-md-6 welcome-left1">
+                        <div class="col-sm-6 welcome-left1">
                             <a href="singlepage.html"><img src="images/img6.jpg" class="img-responsive" alt="" /></a>
                             <h3><a href="singlepage.html">Useful Design Tools</a></h3>
                             <h6>Oct 18 , 2014 • 7 Comments</h6>
                             <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum.</p>
                             <a href="singlepage.html">Continue reading...</a>
                         </div>
-                        <div class="col-md-6 welcome-right1">
+                        <div class="col-sm-6 welcome-right1">
                             <div class="free">
                                 <div class="free-left">
                                     <a href="singlepage.html"><img src="images/img7.jpg" class="img-responsive" alt="" /></a>

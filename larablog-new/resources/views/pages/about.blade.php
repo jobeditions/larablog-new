@@ -1,9 +1,28 @@
 @extends ('layouts.master')
+@section('title')
+Blog écrivain-about
+@endsection
 @section ('content')
-			<div class="col-md-9 top-right">
+			<div class="col-sm-9 top-right">
 		<div class="about-content">
 		 <h2>About</h2>
 		 <div class="about-section">
+		      <div class="who-iam">
+				 <h3>WHO THE I AM?</h3>
+				 <div class="man-info">
+					 <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. </p>
+				     <h4>Some facts about me.</h4>  
+					 <li>Nullam at turpis a orci pretium pharetra.</li>
+					 <li>Curabitur tincidunt purus mollis facilisis placerat.</li>
+					 <li>Mauris a nulla ac est tincidunt interdum.</li>
+					 <li>Pellentesque vel enim nec urna imperdiet mollis.</li>
+					 <li>Integer interdum risus et scelerisque volutpat.</li>
+				 </div>
+				 <div class="man-pic">
+				 <img src="images/img12.jpg" class="img-responsive" alt="" />
+				 </div>
+				 <div class="clearfix"></div>
+			 </div>			 
 			 <div class="about-grid">
 				 <h3>WHY I STARTED THIS BLOG?</h3>
 				 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
@@ -23,24 +42,10 @@
 					 <li><a href="#">The standard chunk of Lorem Ipsum</a></li>
 					 <li><a href="#">In consequat dolor in lorem egestas ultrices.</a></li>
 					 <li><a href="#">Ultrices rhoncus nibh quis dui.</a></li>
-				 </ul>	
+				 </ul>
+				 
 			 </div>
-			 <div class="who-iam">
-				 <h3>WHO THE IAM?</h3>
-				 <div class="man-info">
-					 <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. </p>
-				     <h4>Some facts about me.</h4>  
-					 <li>Nullam at turpis a orci pretium pharetra.</li>
-					 <li>Curabitur tincidunt purus mollis facilisis placerat.</li>
-					 <li>Mauris a nulla ac est tincidunt interdum.</li>
-					 <li>Pellentesque vel enim nec urna imperdiet mollis.</li>
-					 <li>Integer interdum risus et scelerisque volutpat.</li>
-				 </div>
-				 <div class="man-pic">
-				 <img src="images/img12.jpg" class="img-responsive" alt="" />
-				 </div>
-				 <div class="clearfix"></div>
-			 </div>			 
+			 
 		  </div>		 
 </div>
 	 </div>
