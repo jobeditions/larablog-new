@@ -4,7 +4,7 @@ Blog écrivain-accueil
 @endsection
 @section ('content')
 
-            <div class="col-sm-9 top-right">
+            <div class="col-md-9 top-right">
             <!-- banner -->
                 @include ('partials.banner')
                 <!-- banner -->
@@ -28,7 +28,7 @@ Blog écrivain-accueil
                                 </a> 
                            </div>
                         </div>
-                        <div class="col-sm-6 welcome-right">
+                        <div class="col-md-6 welcome-right">
                             <div class="view view-tenth">
                               <a href="singlepage.html">
                                <div class="inner_content clearfix">
@@ -48,14 +48,14 @@ Blog écrivain-accueil
                     </div>
                 <!-- welcome-bottom -->
                     <div class="welcome-bottom">
-                        <div class="col-sm-6 welcome-left1">
+                        <div class="col-md-6 welcome-left1">
                             <a href="singlepage.html"><img src="images/img6.jpg" class="img-responsive" alt="" /></a>
                             <h3><a href="singlepage.html">Useful Design Tools</a></h3>
                             <h6>Oct 18 , 2014 • 7 Comments</h6>
                             <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum.</p>
                             <a href="singlepage.html">Continue reading...</a>
                         </div>
-                        <div class="col-sm-6 welcome-right1">
+                        <div class="col-md-6 welcome-right1">
                             <div class="free">
                                 <div class="free-left">
                                     <a href="singlepage.html"><img src="images/img7.jpg" class="img-responsive" alt="" /></a>
@@ -101,13 +101,13 @@ Blog écrivain-accueil
                     </div>
                 <!-- welcome-bottom -->
                 </div>
-            <!-- welcome -->
+            <!-- welcome 
                 <div class="should">
                     <h4>You should follow James George on Twitter, Facebook, Google+ and LinkedIn</h4>
                     <a href="#" class="more">Get Started</a>
                 </div>
             </div>
-            <div class="clearfix"> </div>
+            <div class="clearfix"> </div>-->
         </div>
     </div>
 @endsection

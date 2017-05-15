@@ -164,16 +164,10 @@ font-weight: 400;
 	border:5px solid #FFF;
 	overflow:visible;
 	transition-duration:.5s;
+	transform: scale(1.2,1.2);
+	transform: translate(-50px,20px);
 }
-#banner-img1:hover{
-transform: translate(-80px,50px);	
-}
-#banner-img2:hover{
-transform: translate(-80px);	
-}
-#banner-img3:hover{
-transform: translate(-80px,-50px);	
-}
+
 .welcome {
 padding: 2em 0;
 border-bottom: 1px solid #D7D3D3;

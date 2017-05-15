@@ -3,7 +3,7 @@
 <head>
 <title>@yield('title')</title>
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
-<link href="css/app.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/app1.css" rel="stylesheet" type="text/css" media="all" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="Archive Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 

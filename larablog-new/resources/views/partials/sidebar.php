@@ -2,7 +2,7 @@
 <!-- header -->
     <div class="content-main">
         <div class="container">
-            <div class="col-sm-3 top-left">
+            <div class="col-md-3 top-left">
                 <div class="logo">
                     <a href="/"><img src="images/logo.png" class="img-responsive" alt="" /></a>
                 </div>
@@ -17,6 +17,7 @@
                             <li><a href="blog">Blog</a></li>
                             <!--<li><a href="404.html">Shop</a></li>-->
                             <li><a href="contact">Contact</a></li>
+                            <li><a href="login">Login/Register</a></li>
                                 <div class="clearfix"> </div>
                         </ul>
                         <!-- script-for-nav -->
