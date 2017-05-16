@@ -11,10 +11,9 @@
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
 .container{
+   
     background:rgba(8, 56, 80, 0.97);
-    }
-/* background: url(images/img15.png)repeat fixed 0 0 #3097d1*/
-
+    
 .label,
 sub,
 sup {

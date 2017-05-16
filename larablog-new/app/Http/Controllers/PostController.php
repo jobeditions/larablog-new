@@ -35,14 +35,26 @@ class PostController extends Controller
      */
     public function store(Request $request)
     {
-        $post=new Post;
+        /*$post=new Post;
 
         $post->title = request('title');
         $post->body = request('body');
 
         $post->save();
-        return redirect('blog');
+        return redirect('blog');*/
 
+    /*Post::create([
+    'title'=>request('title'),
+    'body'=>request('body'),
+        ]);*/
+
+        $this->validate($request, [
+        'title' => 'required|max:255',
+        'body' => 'required',
+    ]);
+        Post::create(request(['title','body']));
+     
+    return redirect('blog'); 
 
     }
 
