@@ -9,9 +9,9 @@ class PageController extends Controller
      function archive(){
     	return view ('pages.archives');
     }
-    function blog(){
-    	return view ('pages.blog');
-    }
+    //function blog(){
+    	//return view ('pages.blog');
+    //}
     function contact(){
     	return view ('pages.contact');
     }

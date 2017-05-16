@@ -11,7 +11,7 @@
 |
 */
 Route::get('archive', 'PageController@archive');
-Route::get('posts', 'PageController@blog');
+//Route::get('posts', 'PageController@blog');
 Route::get('contact', 'PageController@contact');
 Route::get('about', 'PageController@about');
 Route::get('/', 'PageController@login');

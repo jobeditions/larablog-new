@@ -4,7 +4,7 @@
         <div class="container">
             <div class="col-md-3 top-left">
                 <div class="logo">
-                    <a href="/"><img src="images/logo.png" class="img-responsive" alt="" /></a>
+                    <a href="/"><img src="/images/logo.png" class="img-responsive" alt="" /></a>
                 </div>
                 <h4 class="menn">Menu</h4>
                 <label></label>
@@ -12,12 +12,12 @@
                     <span class="menu"> </span>
                         <ul>
                             <li class="active"><a href="/">Home</a></li>
-                            <li><a href="about">About</a></li>
-                            <li><a href="archive">Archives</a></li>
-                            <li><a href="posts">Blog</a></li>
+                            <li><a href="/about">About</a></li>
+                            <li><a href="/archive">Archives</a></li>
+                            <li><a href="/posts">Blog</a></li>
                             <!--<li><a href="404.html">Shop</a></li>-->
-                            <li><a href="contact">Contact</a></li>
-                            <li><a href="login">Login/Register</a></li>
+                            <li><a href="/contact">Contact</a></li>
+                            <li><a href="/login">Login/Register</a></li>
                                 <div class="clearfix"> </div>
                         </ul>
                         <!-- script-for-nav -->

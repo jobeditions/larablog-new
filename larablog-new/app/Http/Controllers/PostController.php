@@ -14,8 +14,8 @@ class PostController extends Controller
      */
     public function index()
     {   
-        $posts=Post::all();
-        return view('pages.blog',compact('posts'));
+        $posts=Post::orderby('created_at','desc')->get();
+        return view('posts.blog',compact('posts'));
     }
 
     /**
@@ -55,7 +55,7 @@ class PostController extends Controller
     ]);
         Post::create(request(['title','body']));
      
-    return redirect('blog'); 
+    return redirect('posts.blog'); 
 
     }
 
@@ -67,7 +67,8 @@ class PostController extends Controller
      */
     public function show($id)
     {
-        //
+        $post = Post::find($id);
+        return view('posts.show',compact('post'));
     }
 
     /**

@@ -1,14 +1,14 @@
 
 		<div class="grid box">
 			<div class="grid-header">
-				<h3><a href="singlepage.html">{{ $post->title }}</a></h3>
+				<h2><a href="posts/{{ $post->id }}">{{ $post->title }}</a></h2>
 				<ul>
-				<li><span>Post By <a href="#">Admin</a> on sunday,March 05,2013 with</span></li>
+				<li><span>Post By <a href="#">Admin</a> on {{ $post->created_at}} </span></li>
 				<li><a href="#">5 comments</a></li>
 				</ul>
 			</div>
 			<div class="grid-img-content">
-				<a href="singlepage.html"><img src="images/img13.jpg" class="img-responsive" alt="" /></a>
+				<a href=""><img src="images/img13.jpg" class="img-responsive" alt="" /></a>
 				
 				{{ $post->body }}
 
