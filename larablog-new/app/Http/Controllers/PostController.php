@@ -36,13 +36,15 @@ class PostController extends Controller
      */
     public function store(Request $request)
     {
-        /*$post=new Post;
+        /*
+        dd(request()->all());
+        $post=new Post;
 
         $post->title = request('title');
         $post->body = request('body');
 
         $post->save();
-        return redirect('blog');*/
+        return redirect('/posts');*/
 
     /*Post::create([
     'title'=>request('title'),
@@ -55,7 +57,7 @@ class PostController extends Controller
     ]);
         Post::create(request(['title','body']));
      
-    return redirect('posts.blog'); 
+    return redirect('/posts'); 
 
     }
 
@@ -65,9 +67,9 @@ class PostController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show(Post $post)
     {
-        $post = Post::find($id);
+        //$post = Post::find($id);
         return view('posts.show',compact('post'));
     }
 
