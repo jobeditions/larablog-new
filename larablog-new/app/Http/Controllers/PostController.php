@@ -36,9 +36,9 @@ class PostController extends Controller
      */
     public function store(Request $request)
     {
-        /*
-        dd(request()->all());
-        $post=new Post;
+        
+        /*dd(request()->all());*/
+        /*$post=new Post;
 
         $post->title = request('title');
         $post->body = request('body');
@@ -49,7 +49,8 @@ class PostController extends Controller
     /*Post::create([
     'title'=>request('title'),
     'body'=>request('body'),
-        ]);*/
+        ]);
+    return redirect('/posts');*/
 
         $this->validate($request, [
         'title' => 'required|max:255',
