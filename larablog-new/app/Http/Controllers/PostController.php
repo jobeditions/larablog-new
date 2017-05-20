@@ -15,6 +15,7 @@ class PostController extends Controller
     public function index()
     {   
         $posts=Post::orderby('created_at','desc')->get();
+        //$posts=Post::all();
         return view('posts.blog',compact('posts'));
     }
 
@@ -37,8 +38,8 @@ class PostController extends Controller
     public function store(Request $request)
     {
         
-        /*dd(request()->all());*/
-        /*$post=new Post;
+        /*dd(request()->all());
+        $post=new Post;
 
         $post->title = request('title');
         $post->body = request('body');
@@ -56,9 +57,10 @@ class PostController extends Controller
         'title' => 'required|max:255',
         'body' => 'required',
     ]);
+       // $post=new Post;
         Post::create(request(['title','body']));
      
-    return redirect('/posts'); 
+        return redirect('/posts'); 
 
     }
 

@@ -7,7 +7,7 @@ Blog écrivain-blog
   <div class="content">
 	<div class="grids">
 	
-	@foreach($posts as $post)
+	@foreach($posts as $posting)
 		@include ('partials.postsblog')
 	@endforeach	
 		
@@ -17,7 +17,7 @@ Blog écrivain-blog
  </div>
 <div class="clearfix"> </div>
 		<div class="content-pagenation">
-						<li><a href="#">Frist</a></li>
+						<li><a href="#">First</a></li>
 						<li><a href="#">1</a></li>
 						<li><a href="#">2</a></li>
 						<li><a href="#">3</a></li>
