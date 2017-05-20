@@ -38,9 +38,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<div class="clearfix"> </div>
 					</div>
 					<div class="clearfix"> </div>
-					
+				@foreach($post->comments as $commenting)
 					@include('partials.comments')
-					@include('partials.comments')
+				@endforeach
 			</div>
 			      
                     @include ('partials.commentform')
