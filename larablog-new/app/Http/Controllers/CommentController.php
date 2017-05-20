@@ -19,7 +19,8 @@ public function store(Post $post)
         	 'post_id'=>$post->id,
         	]);
      
-        return redirect('/posts'); 
+       // return redirect('/posts');
+       return back(); 
 
     }
 }
