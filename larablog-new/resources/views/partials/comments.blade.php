@@ -7,7 +7,7 @@
 								{{$commenting->body}}
 								<div class="cmts">
 									<div class="cmnts-left">
-										<p>On April 14, 2014, 18:01</p>
+										<p>On {{$commenting->created_at}}</p>
 									</div>
 									<div class="cmnts-right">
 										<a href="#">Reply</a>
