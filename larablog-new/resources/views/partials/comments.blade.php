@@ -3,7 +3,9 @@
 								<img src="/images/avatar.png" alt="">
 							</div>
 							<div class="col-md-10 cmts-main-right">
-								<h5>TOM BROWN</h5>
+								<h5>{{$commenting->author}}</h5>
+								<h5>E-mail:{{$commenting->email}}</h5>
+
 								{{$commenting->body}}
 								<div class="cmts">
 									<div class="cmnts-left">
